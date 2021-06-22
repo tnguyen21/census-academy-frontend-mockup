@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Census Academy Frontend Mock-up
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+purpose statement should go here
+
+(really all these things should get their own wiki page, maybe in the GitHub repository)
+
+# Engineering Decision Documentation
+
+# talk about directory structure + conventions here
 
 ## Available Scripts
 
