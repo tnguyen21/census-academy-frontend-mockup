@@ -1,12 +1,14 @@
 # Census Academy Frontend Mock-up
 
-purpose statement should go here
+This repository holds the code for a mock-up of Census Academy. The aim of this repo is to show that leveraging React, AWS Amplify, and supporting technologies, we can support additional features on Census Academy such as user accounts, guided courses, and more.
 
-(really all these things should get their own wiki page, maybe in the GitHub repository)
+## Technologies
 
-# Engineering Decision Documentation
+- [React](https://reactjs.org/)
+- [AWS Amplify](https://aws.amazon.com/amplify/)
+- [GraphQL](https://graphql.org/)
 
-# talk about directory structure + conventions here
+This repository was bootstrapped using [create-react-app](https://create-react-app.dev/docs/adding-typescript/)
 
 ## Available Scripts
 
