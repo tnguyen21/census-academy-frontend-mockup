@@ -10,6 +10,31 @@ This repository holds the code for a mock-up of Census Academy. The aim of this 
 
 This repository was bootstrapped using [create-react-app](https://create-react-app.dev/docs/adding-typescript/)
 
+## Design Tokens
+
+Design tokens are values for color, font, spacing, etc that are intended to be used throughout the entire application.
+
+TODO: At some point, we should leverage the theming features of either Material UI or `styled-components` such that we can store and version control these values in code. This gives us the additional benefit of being able to change styles in one place, and have it affect the entire site to ensure consistent changes in the future.
+
+### Colors
+
+These are colors approved by Census Bureau branding.
+
+Primary Color
+
+- `hsl(213 65% 19%)`
+
+Secondary Colors
+
+- `hsl(199deg 19% 36%)`
+- `hsl(200deg 15% 54%)`
+- `hsl(14deg 100% 57%)`
+- `hsl(290deg 59% 29%)`
+
+Accent Colors
+
+- `hsl(186deg 100% 29%)`
+
 ## Available Scripts
 
 In the project directory, you can run:
