@@ -2,6 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import { Container } from "@material-ui/core";
 import Header from "../shared/Header";
+import Footer from "../shared/Footer";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           </Route>
         </Switch>
       </Container>
+      <Footer />
     </>
   );
 }
