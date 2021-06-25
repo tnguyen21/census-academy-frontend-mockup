@@ -3,12 +3,14 @@ import { Switch, Route } from "react-router-dom";
 import { Container } from "@material-ui/core";
 import Header from "../shared/Header";
 import Footer from "../shared/Footer";
+import Breadcrumbs from "../shared/Breadcrumbs";
 
 function App() {
   return (
     <>
       <Header />
       <Container>
+        <Breadcrumbs />
         <Switch>
           <Route exact path="/">
             <h1>Landing Page</h1>
