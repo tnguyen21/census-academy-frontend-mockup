@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { Grid } from "@material-ui/core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const StyledFooter = styled.footer`
   background: hsl(213 65% 19%);
