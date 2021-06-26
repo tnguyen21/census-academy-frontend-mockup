@@ -32,33 +32,17 @@ function Header() {
               container
               role="navigation"
             >
-              <Grid item component={StyledLink} to="/">
-                Home
-              </Grid>
-              <Grid item component={StyledLink} to="/topics">
-                Topics
-              </Grid>
-              <Grid item component={StyledLink} to="/courses">
-                Courses
+              <Grid item component={StyledLink} to="/data-gems">
+                Data Gems
               </Grid>
               <Grid item component={StyledLink} to="/webinars">
                 Webinars
               </Grid>
-              <Grid item component={StyledLink} to="/data-gems">
-                Data Gems
+              <Grid item component={StyledLink} to="/courses">
+                Courses
               </Grid>
-              <Grid item component={StyledLink} to="/data-challenges">
-                Data Challenges
-              </Grid>
-              {/* TODO set up user accounts, dashaboard only becomes visible when logged in */}
-              {/* <Grid item>
-                  <Link to="/">Dashboard</Link>
-                </Grid> */}
               <Grid item component={StyledLink} to="/resources">
                 Resources
-              </Grid>
-              <Grid item component={StyledLink} to="/about">
-                About
               </Grid>
             </Grid>
           </StyledNavbar>
