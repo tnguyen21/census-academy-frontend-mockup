@@ -4,6 +4,7 @@ import { CssBaseline, Container } from "@material-ui/core";
 import Header from "../shared/Header";
 import Footer from "../shared/Footer";
 import Breadcrumbs from "../shared/Breadcrumbs";
+import ViewDataGems from "../DataGems/ViewDataGems";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
               <h1>Landing Page</h1>
             </Route>
             <Route path="/data-gems">
-              <h1>Data Gems</h1>
+              <ViewDataGems />
             </Route>
             <Route path="/webinars">
               <h1>Webinars</h1>
