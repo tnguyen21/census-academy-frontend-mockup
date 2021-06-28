@@ -5,7 +5,7 @@ import Header from "../shared/Header";
 import Footer from "../shared/Footer";
 import Breadcrumbs from "../shared/Breadcrumbs";
 import ViewDataGems from "../DataGems/ViewDataGems";
-
+import DataGem from "../DataGems/DataGem";
 function App() {
   return (
     <>
@@ -16,6 +16,9 @@ function App() {
           <Switch>
             <Route exact path="/">
               <h1>Landing Page</h1>
+            </Route>
+            <Route path="/data-gems/:slug">
+              <DataGem />
             </Route>
             <Route path="/data-gems">
               <ViewDataGems />

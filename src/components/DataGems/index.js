@@ -1,1 +1,2 @@
-export { default } from "ViewDataGems";
+export { ViewDataGems } from "ViewDataGems";
+export { DataGem } from "DataGem";
