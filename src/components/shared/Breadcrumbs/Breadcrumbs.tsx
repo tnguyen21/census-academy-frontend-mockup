@@ -11,7 +11,6 @@ const routes = [
 
 function Breadcrumbs() {
   const breadcrumbs = useBreadcrumbs(routes);
-  console.log(breadcrumbs);
   return (
     <StyledBreadcrumbs aria-label="breadcrumb" separator=">">
       <BreadcrumbLink to="#">Census.gov</BreadcrumbLink>
