@@ -6,6 +6,8 @@ import Footer from "../shared/Footer";
 import Breadcrumbs from "../shared/Breadcrumbs";
 import ViewDataGems from "../DataGems/ViewDataGems";
 import DataGem from "../DataGems/DataGem";
+import Landing from "../Landing";
+
 function App() {
   return (
     <>
@@ -15,7 +17,7 @@ function App() {
           <Breadcrumbs />
           <Switch>
             <Route exact path="/">
-              <h1>Landing Page</h1>
+              <Landing />
             </Route>
             <Route path="/data-gems/:slug">
               <DataGem />
