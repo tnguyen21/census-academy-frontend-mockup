@@ -3,7 +3,14 @@ import { Switch, Route } from "react-router-dom";
 import { CssBaseline, Container } from "@material-ui/core";
 import Header from "../shared/Header";
 import Footer from "../shared/Footer";
-import Breadcrumbs from "../shared/Breadcrumbs";
+import Landing from "../Landing";
+import Topics from "../Topics";
+import Courses from "../Courses";
+import Webinars from "../Webinars";
+import DataGems from "../DataGems";
+import DataChallenges from "../DataChallenges";
+import Resources from "../Resources";
+import About from "../About";
 
 function App() {
   return (
@@ -11,31 +18,30 @@ function App() {
       <CssBaseline>
         <Header />
         <Container>
-          <Breadcrumbs />
           <Switch>
             <Route exact path="/">
-              <h1>Landing Page</h1>
+              <Landing />
             </Route>
             <Route path="/topics">
-              <h1>Topics</h1>
+              <Topics />
             </Route>
             <Route path="/courses">
-              <h1>Courses</h1>
+              <Courses />
             </Route>
             <Route path="/webinars">
-              <h1>Webinars</h1>
+              <Webinars />
             </Route>
             <Route path="/data-gems">
-              <h1>Data Gems</h1>
+              <DataGems />
             </Route>
             <Route path="/data-challenges">
-              <h1>Data Challenges</h1>
+              <DataChallenges />
             </Route>
             <Route path="/resources">
-              <h1>Resources</h1>
+              <Resources />
             </Route>
             <Route path="/about">
-              <h1>About</h1>
+              <About />
             </Route>
           </Switch>
         </Container>
